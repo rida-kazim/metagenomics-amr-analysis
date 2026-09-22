@@ -1,0 +1,13 @@
+name: metagenomics-amr-analysis
+
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - fastqc
+  - fastp
+  - kraken2
+  - r-base
+  - amrfinderplus
