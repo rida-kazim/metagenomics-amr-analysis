@@ -115,6 +115,31 @@ Metagenomic AMR analysis can support research in:
 - Public health research
 - Environmental microbiology
 
+
+## Usage
+
+### Clone the repository
+
+```bash
+git clone https://github.com/rida-kazim/metagenomics-amr-analysis.git
+cd metagenomics-amr-analysis
+```
+
+### Create the software environment
+
+```bash
+conda env create -f environment.yml
+conda activate metagenomics-amr-analysis
+```
+
+### Run the pipeline
+
+```bash
+bash scripts/metagenomics_amr_pipeline.sh sample_R1.fastq.gz sample_R2.fastq.gz
+```
+
+The analysis outputs will be generated in the results directory.
+
 ## Author
 
 **Rida Kazim**
